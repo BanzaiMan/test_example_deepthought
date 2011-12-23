@@ -4,3 +4,7 @@ Feature: AnswerToEverything
   Scenario: Ask a question
     Given nil as input
     Then the result should be 42
+
+  Scenario: Ask a question
+    Given 質問 as input
+    Then the result should be 42
